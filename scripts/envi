@@ -1,0 +1,15 @@
+export SPARK_CLASSPATH=/root/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.7.jar:/root/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar:/root/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar:/root/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar
+
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.3.jar
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/.ivy2/cache/org.scalanlp/breeze-natives_2.10/jars/breeze-natives_2.10-0.7.jar
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/hbase-0.98.2-hadoop2/lib/hbase-server-0.98.2-hadoop2.jar:/root/hbase-0.98.2-hadoop2/lib/hbase-common-0.98.2-hadoop2.jar:/root/hbase-0.98.2-hadoop2/lib/hbase-client-0.98.2-hadoop2.jar:/root/hbase-0.98.2-hadoop2/lib/hbase-protocol-0.98.2-hadoop2.jar
+
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/.ivy2/cache/org.cloudera.htrace/htrace-core/jars/htrace-core-2.04.jar
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/avro/avro-1.7.6.jar:/root/avro/jackson-core-asl-1.9.13.jar:/root/avro/jackson-mapper-asl-1.9.13.jar:/root/avro/paranamer-2.6.jar
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/.ivy2/cache/com.gensler/scalavro_2.10/jars/scalavro_2.10-0.6.2.jar:/root/.ivy2/cache/com.gensler/scalavro-core_2.10/jars/scalavro-core_2.10-0.6.2.jar:/root/.ivy2/cache/com.gensler/scalavro-util_2.10/jars/scalavro-util_2.10-0.6.2.jar
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/root/.ivy2/cache/io.spray/spray-json_2.10/jars/spray-json_2.10-1.2.5.jar
+
+export PATH=$PATH:/root/sbt
+
+export SPARK_HOME=/root/spark-1.0.0-bin-hadoop2
+
